@@ -1,0 +1,16 @@
+[
+  {
+    "id": "R1",
+    "adr": "ADR-002",
+    "modulo": "vehiculos",
+    "no_puede_importar": ["avisos"],
+    "porque": "Si el modulo de avisos falla, el registro de entrada o salida de un vehiculo NO se puede caer."
+  },
+  {
+    "id": "R2",
+    "adr": "ADR-001",
+    "modulo": "vehiculos",
+    "no_puede_importar": ["tarifas"],
+    "porque": "La busqueda o consulta de cupos no puede alterar el registro de ocupacion; vehiculos no puede depender de tarifas para seguir siendo una consulta pura."
+  }
+]
