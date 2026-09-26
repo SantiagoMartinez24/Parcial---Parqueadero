@@ -5,8 +5,6 @@
 // registro de ocupación. cuposDisponibles() y listarVehiculosActivos() deben quedar
 // garantizadas como funciones de solo lectura, sin depender de nada externo.
 
-import { calcularCosto } from './tarifas.js';
-
 const CAPACIDAD_TOTAL = 5;
 const vehiculosActivos = []; // { placa, horaEntrada }
 
